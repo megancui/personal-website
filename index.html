@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>megan cui</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Merienda+One|Roboto+Slab" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+      <h1>hi, i'm megan.</h1>
+      
+      <h2>here's some info about me.</h2>
+        <p>i'm a rising senior at mason high school. more importantly, however:</p>
+      
+      <h3>1. i do debate.</h3>
+        <ul>
+            <li>2018 state qualifier & double-octafinalist in public forum debate (seeded #12 in prelims)</li>
+            <li>2018 national qualifier in world schools debate</li>
+            <li>dabbled in congressional debate</li>
+        </ul>
+      
+      <h3>2. i like to code.</h3>
+          <ul>
+                <li><a href="masonhackclub.com">mason hack club</a> co-founder & executive director</li>
+                <li><a href="cincyhacks.com">cincyhacks</a> lead event director</li>
+                <li>fall 2016 "best high school hack" @ revolutionUC</li>
+                <li>spring 2017 third place overall @ revolutionUC</li>
+                <li>hosted  fun volunteering events @ midpointe west chester, mason intermediate school, and western row elementary school</li>
+                <li>here are some pictures!</li>
+            </ul>
+
+            <div class="w3-content w3-display-container pictures">
+                <img class="mySlides" src="IMG_1253.jpg" style="width:50%">
+                <img class="mySlides" src="IMG_1769.jpg" style="width:50%">
+                <img class="mySlides" src="IMG_3374.JPG" style="width:50%">
+                <img class="mySlides" src="IMG_4512.JPG" style="width:50%">
+
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+      
+      
+        <h3>3. i play music.</h3>
+      
+            <ul>
+                <li>2018 all-state orchestra principal flute + piccolo</li>
+                <li>2017 all-state band third chair flute</li>
+                <li>mason hs wind symphony principal flute</li>
+                <li>cincinnati symphony youth orchestra co-principal flute</li>
+            </ul>
+      
+        <h3>4. diversity is key.</h3>
+            <p>i play a folk chinese instrument called "hulusi" around the cincinnati area.</p>
+      
+            <ul>
+                <li>greater cincinnati chinese music society youth board member</li>
+                <li>2018 <a href="https://youtu.be/H8OyJeO4z5Y">"east meets west" concert mc</a> @ cincinnati art museum</li>
+                <li>ge "connect kids to the world" volunteer</li>
+                <li>teach teachers/students @ two cincinnati middle schools how to play "hulusi"</li>
+            </ul>
+      
+        <h3>5. i <a href="https://medium.com/@megancui">write</a> with passion.</h3>
+            <p>i am passionate about the future of the youth, technology, mental health, cultural diversity, political change, and passion itself. i always love a good discussion -- please reach out to me over any medium to have one.</p>
+      
+        <h3>6. i love making new friends.</h3>
+            <p>you can find me on a variety of social media platforms. by the way, i love meaningful discussions just as much as i love pictures of cute cats.</p>
+      
+        <div class="bar">
+            <a href="https://www.instagram.com/megscui/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://twitter.com/megscui"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://medium.com/@megancui"><i class="fab fa-medium-m fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/megancui/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+            <a><i class="fas fa-envelope-open fa-2x"></i></a>
+            <span id="copyright">built from scratch by megan cui</span>
+        </div>
+
+      
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  </body>
+</html>
