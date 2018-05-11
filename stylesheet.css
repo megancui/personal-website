@@ -1,0 +1,50 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+ul {
+    list-style: circle;
+}
+
+a {
+    color: #9b0036;
+}
+
+.pictures {
+    margin-left: 50px
+}
+
+i {
+    margin: 6px;
+    color: #ededed;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s
+    transition: color .5s;
+}
+
+.bar {
+    background-color: #dba2af;
+    border-radius: 10px;
+}
+
+#copyright {
+    float: right;
+    margin-top: 12px;
+    margin-right: 5px;
+    color: #ededed;
+}
+
+i:hover {
+    color: black;
+}
