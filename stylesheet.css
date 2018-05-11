@@ -48,3 +48,8 @@ i {
 i:hover {
     color: black;
 }
+
+#everything {
+    margin-left: 50px;
+    margin-right: 50px;
+}
