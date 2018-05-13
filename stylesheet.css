@@ -19,9 +19,7 @@ a {
     color: #9b0036;
 }
 
-.pictures {
-    margin-left: 50px
-}
+
 
 i {
     margin: 6px;
@@ -29,7 +27,7 @@ i {
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
-    -webkit-transition:.5s
+    -webkit-transition:.5s;
     transition: color .5s;
 }
 
@@ -52,4 +50,17 @@ i:hover {
 #everything {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+h4 {
+    margin-bottom: -15px;
+}
+
+#pronunciation {
+    font-style: italic;
+    font-size: 20px;
+}
+
+#portfolio {
+    color: black;
 }
