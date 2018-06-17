@@ -516,7 +516,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .about-banner {
-	max-height: 35vh;
+	max-height: 25vh;
 }
 
 .innerbanner {
@@ -525,7 +525,7 @@ ul li {
 }
 
 .innerbanner-text {
-	padding-top: calc(30% - 5.8vw) !important;
+	padding-top: 20% !important;
 	padding-bottom: 0;
 }
 
