@@ -545,23 +545,24 @@ ul li {
 	line-height: 33px;
 	font-weight: 400;
 }
-.inner-description img
-{
-width:100%;
-height:100%;
+.inner-description img {
+	width:100%;
+	height:100%;
+	border: 10px solid #753151;
 }
 
 #inner-description .row {
 	margin-left: 5%;
 	margin-right: 5%;
-	height: 400px;
 }
 
-#about-description span {
+.row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  height: inherit;
+}
+
+#about-description, #pic  {
+  margin: auto;  /* Magic! */
 }
 
 /* ------------------------------------------------------------------------------
