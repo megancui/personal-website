@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>megan cui</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Merienda+One|Roboto+Slab" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+</head>
+<body>
+<div id="everything">
+    <h1>hi, i'm megan cui <span id="pronunciation">(ts - way)</span>.</h1>
+
+    <h2>here's some info about me + my <a href="#portfolio">portfolio</a>.</h2>
+
+    <p>i'm a rising senior at mason high school. more importantly, however:</p>
+
+    <h3>1. i do debate.</h3>
+        <ul>
+            <li>2018 state qualifier & double-octafinalist in public forum debate (seeded #12 in prelims)</li>
+            <li>2018 national qualifier in world schools debate</li>
+            <li>dabbled in congressional debate</li>
+        </ul>
+
+    <h3>2. i like to code.</h3>
+        <ul>
+            <li><a href="https://masonhackclub.com">mason hack club</a> co-founder & executive director</li>
+            <li><a href="https://cincyhacks.com">cincyhacks</a> lead event director</li>
+            <li>techolympics 2018 tier1 performance web design - first prize</li>
+            <li>2018 ncwit ohio award <a href="https://www.aspirations.org/user/92148">winner</a></li>
+            <li>fall 2016 "best high school hack" @ revolutionUC</li>
+            <li>spring 2017 third place overall @ revolutionUC</li>
+            <li>hosted fun volunteering events @ midpointe west chester, mason intermediate school, and western row
+                elementary school
+            </li>
+        </ul>
+
+    <p>here are some pictures!</p>
+
+        <div class="w3-content w3-display-container pictures">
+            <img class="mySlides" src="IMG_1253.jpg" style="width:50%">
+            <img class="mySlides" src="IMG_1769.JPG" style="width:50%">
+            <img class="mySlides" src="IMG_3374.JPG" style="width:50%">
+            <img class="mySlides" src="IMG_4512.jpg" style="width:50%">
+
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+        <script>
+            // ---------------------------------------------------------------
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+            // -----------------------------------------------------------
+        </script>
+
+
+    <h3>3. i play music.</h3>
+
+        <ul>
+            <li>2018 all-state orchestra principal flute + piccolo</li>
+            <li>2017 all-state band third chair flute</li>
+            <li>mason hs wind symphony principal flute</li>
+            <li>cincinnati symphony youth orchestra co-principal flute</li>
+            <li>2018 central ohio flute association senior division finalist</li>
+            <li>2018 cincinnati youth chinese music festival - first prize in instrumental</li>
+        </ul>
+
+    <h3>4. diversity is key.</h3>
+        <p>i play a folk chinese instrument called "hulusi" around the cincinnati area.</p>
+
+        <ul>
+            <li>greater cincinnati chinese music society youth board member</li>
+            <li>2018 <a href="https://youtu.be/H8OyJeO4z5Y">"east meets west"</a> concert mc @ cincinnati art museum</li>
+            <li>ge <a href="https://youtu.be/aPI9TTRPNc4">"connect kids to the world"</a> volunteer</li>
+            <li>teach teachers/students @ two cincinnati middle schools how to play "hulusi"</li>
+        </ul>
+
+    <h3>5. i <a href="https://medium.com/@megancui">write</a> with passion.</h3>
+        <p>i am passionate about the future of the youth, technology, mental health, cultural diversity, political change,
+        and passion itself. i always love a good discussion -- please reach out to me over any medium to have one.</p>
+
+    <br>
+    <hr>
+    <hr>
+
+    <h3><a name="portfolio" id="portfolio">my ever-growing portfolio</a></h3>
+
+    <h4>media appearances:</h4>
+        <ul class="portfolio">
+            <li><a href="http://thecspn.com/?p=44951">"24-hour hackathon promotes practice in coding, computer
+                programming"</a> - 10/20/17 mason hs chronicle
+            </li>
+            <li><a href="http://thecspn.com/?p=43434">"hack club host their first computer programming summer camp"</a> -
+                6/30/17 mason hs chronicle
+            </li>
+            <li><a href="http://thecspn.com/?p=46149">"‘mental health awareness team’ directs effort for policy change"</a>
+                - 3/19/18 mason hs chronicle
+            </li>
+            <li><a href="https://activities.masoncomets.org/2017/04/12/mason-hack-club-places-3rd-in-hackathon/">"mason hack
+                club places 3rd in hackathon"</a> - 4/12/17 mason activities student news
+            </li>
+        </ul>
+
+    <h4>speaking:</h4>
+        <ul class="portfolio">
+            <li><a href="https://youtu.be/M1YlnqRGmmw">"a measure of success"</a> - techolympics 2018 tedxpitch winner</li>
+            <li><a href="https://techolympics.org/breakouts/">"12k in 4 days: how to pull off big events"</a> - techolympics
+                2018 breakout presenter</li>
+            <li><a href="https://youtu.be/H8OyJeO4z5Y">"east meets west"</a> 2018 concert mc @ cincinnati art museum</li>
+            <li><a href="https://www.instagram.com/p/BdWCuwohf7V/?taken-by=megscui">"destroy the stigma"</a> //
+                #forwhatistand campaign</li>
+            <li>2017 interalliance it careers camp start-up competition & presentation - first prize</li>
+        </ul>
+
+    <h4>performing:</h4>
+        <ul class="portfolio">
+            <li>under construction!</li>
+        </ul>
+
+    <h4>writing:</h4>
+        <ul class="portfolio">
+            <li><a href="https://medium.com/@megancui/if-i-werent-afraid-517ff9e697e4">"if i weren't afraid"</a> - medium
+            </li>
+            <li><a href="https://medium.com/@megancui/when-reacting-isnt-enough-7fd4d2a59ac2">"when reacting isn't
+                enough"</a> - medium
+            </li>
+        </ul>
+
+    <hr>
+    <hr>
+
+    <h3>also, i love making new friends.</h3>
+        <p>you can find me on a variety of social media platforms. by the way, i love meaningful discussions just as much as
+        i love pictures of cute cats.</p>
+
+    <div class="bar">
+        <a href="https://www.instagram.com/megscui/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://twitter.com/megscui"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://medium.com/@megancui"><i class="fab fa-medium-m fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/megancui/"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        <a href="mailto:megan.cui.mc@gmail.com"><i class="far fa-envelope-open fa-2x"></i></a>
+        <span id="copyright">built from scratch by megan cui</span>
+    </div>
+
+</div>
+</body>
+</html>
