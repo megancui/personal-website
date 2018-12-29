@@ -23,7 +23,7 @@ p, ul, li {
   margin-top: 80px;
   background-color: white;
   border-radius: 20px;
-  padding: 40px;
+  padding: 10px;
 }
 
 a {
@@ -36,7 +36,7 @@ a {
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
-  padding: 50px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -70,8 +70,8 @@ a {
     margin-top: 0;
     background-color: #362936;
     color: white;
-    padding: 20px;
-    border: 2px white solid;
+    padding: 0px;
+    border: none;
     border-radius: 0;
   }
 
@@ -89,4 +89,15 @@ a {
   a {
     color: #ffccdc;
   }
+
+  .container2 {
+    border: none;
+    padding: none;
+  }
+}
+
+.container2 {
+  border: 2px solid #362936;
+  padding: 30px;
+  border-radius: 10px;
 }
