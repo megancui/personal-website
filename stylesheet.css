@@ -1,8 +1,10 @@
 body {
-  background-color: #362936;
+  background-color: #F8F9F9;
   /* background-image: url("images/collage.jpg"); */
-  color: #362936;
-  font-family: 'Average', serif;
+  color: #1C2833;
+  font-family: 'Open Sans', sans-sans-serif;
+  font-size: 18px;
+  padding: 20px;
 }
 
 h1 {
@@ -12,35 +14,32 @@ h1 {
 
 p, ul, li {
   margin: none;
-  font-size: 20px;
-  /* display: inline-block; */
 }
 
 .container {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 80px;
-  background-color: white;
+  margin-top: 60px;
   border-radius: 20px;
-  padding: 10px;
 }
 
 a {
   color: #b30039;
-  text-decoration-style: dotted;
+  text-decoration-style: underline;
 }
 
 .prefooter {
-  color: white;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
   padding: 20px;
   text-align: center;
 }
 
 .follow {
+  font-size: 14px;
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
@@ -53,7 +52,7 @@ a {
 }
 
 .follow a {
-  color: white;
+  color: #1C2833;
 }
 
 .follow a:hover {
@@ -67,39 +66,91 @@ a {
   border-radius: 10px;
 }
 
+
+
+
+/* Header */
+
+.header {
+  margin-top: 0;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  vertical-align: top;
+}
+
+.header a, .header p {
+  color: #1C2833;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.header .header__logo {
+  display: inline-block;
+}
+
+.header .header__logo p {
+  margin: 0;
+  text-align: left;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.header .header__logo p :hover {
+  color: #566573;
+  transition: color .4s;
+}
+
+.header .header__navbar {
+  float: right;
+  text-align: right;
+}
+
+.header .header__navbar p {
+  margin: 0;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header .header__navbar p :hover {
+  color: #566573;
+  transition: color .4s;
+}
+
+
+
+
+/* Media */
+
 @media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
   .container {
-    margin-top: 0;
-    background-color: #362936;
-    color: white;
+    margin-top: 10px;
     padding: 0px;
-    border: none;
-    border-radius: 0;
+    font-size: .8rem;
   }
 
   .follow {
     margin: 0;
     margin-right: 10px;
+    font-size: .7rem;
   }
 
   .prefooter {
-    color: white;
-    padding: 20px;
     text-align: center;
+    margin-top: 10px;
   }
 
-  a {
-    color: #ffccdc;
+  .header {
+    font-size: .8rem;
+    margin-top: 0;
   }
 
-  .container2 {
-    border: none;
-    padding: none;
+  .header__logo a {
+    font-size: .8rem;
   }
-}
-
-.container2 {
-  border: 2px solid #362936;
-  padding: 30px;
-  border-radius: 10px;
 }
