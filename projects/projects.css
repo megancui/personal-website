@@ -50,7 +50,7 @@ a {
 }
 
 .follow a:hover {
-  color: grey;
+  color: #ABB2B9;
 }
 
 #megan {
@@ -88,12 +88,13 @@ a {
 .header .header__logo p {
   margin: 0;
   text-align: left;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 18px;
+  font-family: "Roboto Slab";
 }
 
 .header .header__logo p :hover {
-  color: #566573;
+  color: #ABB2B9;
   transition: color .4s;
 }
 
@@ -109,11 +110,45 @@ a {
 }
 
 .header .header__navbar p :hover {
-  color: #566573;
+  color: #ABB2B9;
   transition: color .4s;
 }
 
 
+
+/* Projects */
+
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.project img {
+  max-width: 100px;
+}
+
+.project .project__pic {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.project .project__text {
+  flex: 1;
+}
+
+.project__text h4, .project__text p {
+  margin: 0;
+}
+
+.project__text a {
+  color: #1C2833;
+  text-decoration: none;
+}
+
+.project__text a:hover {
+  color: #ABB2B9;
+  transition: color .4s;
+}
 
 
 /* Media */
@@ -145,7 +180,11 @@ a {
     margin-bottom: 10px;
   }
 
+  .header .header__navbar p {
+    margin-left: 8px;
+  }
+
   .header__logo a {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }

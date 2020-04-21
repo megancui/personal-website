@@ -55,7 +55,7 @@ a {
 }
 
 .follow a:hover {
-  color: grey;
+  color: #ABB2B9;
 }
 
 #megan {
@@ -93,12 +93,13 @@ a {
 .header .header__logo p {
   margin: 0;
   text-align: left;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 18px;
+  font-family: "Roboto Slab";
 }
 
 .header .header__logo p :hover {
-  color: #566573;
+  color: #ABB2B9;
   transition: color .4s;
 }
 
@@ -114,7 +115,7 @@ a {
 }
 
 .header .header__navbar p :hover {
-  color: #566573;
+  color: #ABB2B9;
   transition: color .4s;
 }
 
@@ -150,7 +151,11 @@ a {
     margin-bottom: 10px;
   }
 
+  .header .header__navbar p {
+    margin-left: 8px;
+  }
+
   .header__logo a {
-    font-size: .8rem;
+    font-size: 1rem;
   }
 }
