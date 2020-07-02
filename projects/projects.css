@@ -121,10 +121,16 @@ a {
 .project {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .project img {
   max-width: 100px;
+  max-height: 100px;
+}
+
+.container h3 {
+  margin-top: 50px;
 }
 
 .project .project__pic {
@@ -143,6 +149,11 @@ a {
 .project__text a {
   color: #1C2833;
   text-decoration: none;
+}
+
+.project__text p a {
+  color: #1C2833;
+  text-decoration: underline;
 }
 
 .project__text a:hover {
