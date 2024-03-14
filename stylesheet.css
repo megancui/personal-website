@@ -2,9 +2,16 @@ body {
   background-color: #F8F9F9;
   /* background-image: url("images/collage.jpg"); */
   color: #1C2833;
-  font-family: 'Open Sans', sans-sans-serif;
-  font-size: 18px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 16px;
   padding: 20px;
+  line-height: 24px;
+}
+
+.body {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -17,14 +24,24 @@ p, ul, li {
 }
 
 .container {
-  max-width: 700px;
+  /* max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 20px;
+  border-radius: 20px; */
+  display: flex;
+}
+
+.container2 {
+  flex-grow: 1;
+}
+
+.profpic img {
+  width: min(80%, 250px);
+  min-width: 150px;
 }
 
 a {
-  color: #b30039;
+  color: #346b73;
   text-decoration-style: underline;
 }
 
@@ -73,9 +90,6 @@ a {
 .header {
   margin-top: 0;
   margin-bottom: 60px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 16px;
   vertical-align: top;
 }
